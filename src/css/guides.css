@@ -1,0 +1,56 @@
+.guides {
+    padding: 99px 0 72px;
+}
+
+.guides__comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.guides__card {
+    width: calc(50% - 16px);
+}
+
+.guides__img {
+    width: 100%;
+}
+.guides__person {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.guides__desc {
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+    margin: 18px 0 12px;
+}
+.guides__person-name {
+    font-size: 13px;
+    line-height: 18px;
+    color: #575445;
+}
+.guides__person-job {
+    font-size: 11px;
+    line-height: 15px;
+    color: #E6B939;
+}
+.guides__date {
+    font-size: 13px;
+    line-height: 18px;
+    color: #6F7278;
+}
+
+.guides__row {
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: wrap;
+}
+
+.guides .link {
+    text-align: center;
+    margin-top: 26px;
+}

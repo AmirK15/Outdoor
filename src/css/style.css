@@ -1,0 +1,105 @@
+@import "header.css";
+@import "gear.css";
+@import "about.css";
+@import "promise.css";
+@import "store.css";
+@import "ocean.css";
+@import "shop.css";
+@import "footer.css";
+@import "guides.css";
+@import "../fonts/Poppins/style.css";
+@import "../fonts/Roboto/style.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --haki: #575445;
+    --gold: #E6B939;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: var(--haki);
+    border-radius: 6px;
+    border: none;
+    padding: 10px 18px 11px;
+    cursor: pointer;
+}
+.subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+.title{
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+.title_color {
+    color: var(--gold);
+}
+.desc{
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+    margin: 8px 0 20px;
+}
+.desc_color {
+    color: #FAFAFC;
+}
+.btn_indigo {
+    background-color: #FFFFFF;
+    color: var(--haki);
+}
+.arrow{
+    margin-left: 4px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+}
+
+.storeButton {
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

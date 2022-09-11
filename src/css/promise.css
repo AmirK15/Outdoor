@@ -1,0 +1,99 @@
+.promise {
+    text-align: center;
+    padding: 99px 0 159px;
+    position: relative;
+}
+
+.promise::before {
+    content: url("../images/promiseTop.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.promise::after {
+    content: url("../images/promiseBot.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.promise .desc {
+    margin: 7px 0 71px;
+}
+
+.promise__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px 102px;
+}
+
+.promise__card {
+    width: calc(33.33333% - 68px);
+}
+
+.promise__circle {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #575445;
+    border-radius: 50%;
+}
+
+.promise__card-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+    margin: 10px 0 9px;
+}
+
+.promise__card-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 876px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 676px) {
+    .promise__card {
+        width: calc(50% - 51px);
+    }
+}
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 425px) {
+    .promise__card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 375px) {
+
+}

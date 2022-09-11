@@ -1,0 +1,124 @@
+.about{
+    padding: 100px 0;
+}
+.about__content{
+    display: flex;
+    column-gap: 104px;
+    align-items: center;
+}
+.about__image{
+    width: 100%;
+}
+
+.about__img-block {
+    width: 50%;
+    position: relative;
+}
+.about__img-block::before{
+    content: url("../images/decor.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+.about__img-block::after{
+    content: url("../images/decor.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .about {
+        padding: 90px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .about .desc br {
+        display: none;
+    }
+    .about__text {
+        width: 40%;
+    }
+}
+@media (max-width: 876px) {
+    .about .desc {
+        font-size: 14px;
+    }
+    .about .title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .about .subtitle {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 676px) {
+    .about {
+        padding: 50px 0;
+    }
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .about .title {
+        font-size: 32px;
+    }
+    .about__img-block {
+        width: 60%;
+    }
+}
+@media (max-width: 576px) {
+    .about__text {
+        width: 61%;
+    }
+    .about__img-block::before {
+        content: '';
+    }
+    .about__img-block::after{
+        content: '';
+    }
+}
+
+@media (max-width: 425px) {
+    .about__img-block {
+        width: 70%;
+    }
+    .about__text {
+        width: 71%;
+    }
+}
+
+@media (max-width: 375px) {
+    .about__text {
+        text-align: center;
+    }
+    .about .title {
+        font-size: 28px;
+    }
+    .about .desc {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .about .subtitle {
+        font-size: 12px;
+    }
+    .arrow {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,102 @@
+.gear {
+     /*background: url("../images/gearBg.png") center/cover no-repeat;*/
+    padding: 218px 0 228px;
+}
+
+
+
+.gear__title {
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.gear__desc {
+    margin-top: 9px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}
+
+@media (max-width: 1440px) {
+  .gear__title {
+
+  }
+}
+
+@media (max-width: 1200px) {
+    .gear__title {
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .gear__title {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .gear__title {
+
+    }
+    .gear {
+        padding: 180px 0;
+    }
+}
+@media (max-width: 876px) {
+    .gear__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .gear__desc {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .gear .subtitle {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 676px) {
+
+}
+@media (max-width: 576px) {
+    .gear {
+        padding: 165px 0;
+    }
+    .gear__title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .gear__desc {
+        font-size: 14px;
+        color: #bfa55a;
+    }
+}
+
+@media (max-width: 425px) {
+    .gear__desc br {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .gear {
+        text-align: center;
+    }
+    .gear__title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .gear .subtitle {
+        font-size: 11px;
+    }
+    .gear__desc {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

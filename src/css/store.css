@@ -1,0 +1,63 @@
+.store {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.store__card {
+    height: 473px;
+    width: calc(33.33333% - 10.66666px);
+    text-align: center;
+    background: url("../images/storeCompass.png") center/cover no-repeat;
+    border-radius: 10px;
+    padding: 39px 63px 0;
+    opacity: 0.6;
+    transition: .5s;
+}
+
+.store__card:hover {
+    opacity: 1;
+}
+
+.store__card:nth-child(2) {
+    background: url("../images/mountains.png") center/cover no-repeat;
+}
+.store__card:nth-child(3) {
+    background: url("../images/climbing.png") center/cover no-repeat;
+}
+
+
+.store__hide-card .store__card:nth-child(1) {
+    background: url("../images/headwear.png") center/cover no-repeat;
+}
+.store__hide-card .store__card:nth-child(2) {
+    background: url("../images/hiking.png") center/cover no-repeat;
+}
+.store__hide-card .store__card:nth-child(3) {
+    background: url("../images/jackets.png") center/cover no-repeat;
+}
+
+.store__card-title {
+    font-size: 28px;
+    line-height: 34px;
+    color: #575445;
+}
+
+.store__card-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #575445;
+    margin: 9px 0 20px;
+}
+
+.store__row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 21px;
+}
+
+.store__hide-card {
+    width: 100%;
+    display: none;
+    column-gap: 16px;
+}

@@ -1,0 +1,28 @@
+.ocean {
+    position: relative;
+    height: 600px;
+    /*background: url("../images/ocean.png") center/cover no-repeat;*/
+}
+
+.ocean__navigation {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 615px;
+    background: #292C32;
+    border-radius: 16px;
+    padding: 16px 22px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.ocean__link {
+   display: flex;
+    column-gap: 8px;
+}
+
+.ocean__link a {
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
